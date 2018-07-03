@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_demo"
+            android:title="@string/fragment_demo" />
+        <item
+            android:id="@+id/ibinder_menu"
+            android:title="@string/ibinder_service" />
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:title="@string/bottom_sheet" />
+        <item
+            android:id="@+id/messenger_service"
+            android:title="Messanger Service" />
+    </group>
+
+    <item android:title="UI">
+        <menu>
+            <item
+                android:id="@+id/constrain_layout"
+
+                android:title="@string/constranin_layout" />
+            <item
+                android:id="@+id/nav_bootm_shit"
+                android:title="@string/bottom_sheet"/>
+        </menu>
+    </item>
+
+</menu>

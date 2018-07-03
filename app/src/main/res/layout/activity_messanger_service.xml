@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".activity.InbinderServiceActivity">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/behvior"
+        android:layout_width="wrap_content"
+        android:textSize="10sp"
+        android:layout_height="wrap_content"
+        android:text="Behavior\nSubject"/>
+    <Button
+        android:id="@+id/publish_subject"
+        android:layout_width="wrap_content"
+        android:textSize="10sp"
+        android:layout_height="wrap_content"
+        android:text="Publish\nSubject"/>
+    <Button
+        android:id="@+id/replay"
+        android:layout_width="wrap_content"
+        android:textSize="10sp"
+        android:layout_height="wrap_content"
+        android:text="Replay\nSubject"/>
+    <Button
+        android:id="@+id/async"
+        android:layout_width="wrap_content"
+        android:textSize="10sp"
+        android:layout_height="wrap_content"
+        android:text="Async\nSubject"/>
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_binder_service_display_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView" />
+
+
+</LinearLayout>

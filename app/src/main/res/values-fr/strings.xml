@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="next">Next</string>
+    <string name="second_form_name">Détail de l"'"utilisateur</string>
+    <string name="user_name">Nom: Abhishek</string>
+    <string name="user_address">Adresse: 445 somwar peth pune</string>
+    <string name="user_mob">Numéro de mobile: 8983046111</string>
+    <string name="btn_msg">Afficher la date actuelle</string>
+    <string name="uplaod">Uplaod</string>
+    <string name="download">Download</string>
+    <string name="fragment" />
+    <string name="constranin_layout">Constraint Layout</string>
+    <string name="messenger_service">Messenger Service</string>
+    <string name="ibinder_service">Ibinder Service</string>
+    <string name="bottom_sheet">Bottom Shit</string>
+    <string name="fragment_demo">Fragment Demo</string>
+</resources>
