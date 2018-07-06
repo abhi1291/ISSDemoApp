@@ -84,7 +84,7 @@ public class HomeDrawerActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.fragment_demo) {
-            intent=new Intent(this,RxJavaDemoActivity.class);
+            intent=new Intent(this,RealmBookListActivity.class);
             startActivity(intent);
 
             // Handle the camera action

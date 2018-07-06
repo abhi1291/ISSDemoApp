@@ -3,10 +3,10 @@
     package="com.example.abc.myapplication">
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:name="MyApplication"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -39,7 +39,11 @@
         <activity android:name=".activity.ConstraintLayoutActivity" />
         <activity android:name=".activity.SQLDemoActivity" />
         <activity android:name=".activity.GenericDemoActivity" />
-        <activity android:name=".activity.RxJavaDemoActivity"></activity>
+        <activity android:name=".activity.RxJavaDemoActivity" />
+        <activity android:name=".activity.RealmBookListActivity" />
+        <activity android:name=".activity.RealemLibraryList" />
+        <activity android:name=".activity.AddLibraryDetailActivity" />
+        <activity android:name=".activity.AddBookDetail"></activity>
     </application>
 
 </manifest>
